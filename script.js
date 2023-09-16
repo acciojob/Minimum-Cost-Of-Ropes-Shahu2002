@@ -79,17 +79,7 @@ class MinHeap {
     }
 }
 
-// Event listener for form submission
-document.getElementById("rope-form").addEventListener("submit", function (e) {
-    e.preventDefault();
-    
-    const ropesInput = document.getElementById("ropes-input").value;
-    const ropeLengths = ropesInput.split(",").map(Number);
 
-    const minimumCost = minCostToConnectRopes(ropeLengths);
-
-    document.getElementById("result").textContent = `Minimum Cost: ${minimumCost}`;
-});
 
   
  
