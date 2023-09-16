@@ -1,4 +1,4 @@
-function calculateMinCost() {
+
   //your code here
   
   // Function to calculate the minimum cost of connecting ropes
@@ -92,4 +92,4 @@ document.getElementById("rope-form").addEventListener("submit", function (e) {
 });
 
   
-}  
+ 
